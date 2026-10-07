@@ -10,6 +10,7 @@ The project compares different regression models and identifies the best-perform
 The dataset contains 1,338 records and 7 columns:
 
 age – Age of the person
+
 sex – Gender
 bmi – Body Mass Index
 children – Number of children
