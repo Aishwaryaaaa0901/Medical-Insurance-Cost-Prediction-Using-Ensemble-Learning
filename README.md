@@ -10,39 +10,41 @@ The project compares different regression models and identifies the best-perform
 The dataset contains 1,338 records and 7 columns:
 
 ##### age – Age of the person
-sex – Gender
-bmi – Body Mass Index
-children – Number of children
-smoker – Smoking status
-region – Residential region
-charges – Medical insurance cost (Target)
+##### sex – Gender
+##### bmi – Body Mass Index
+##### children – Number of children
+##### smoker – Smoking status
+##### region – Residential region
+##### charges – Medical insurance cost (Target)
+
 # Machine Learning Models
 
 The following models are used:
 
-Linear Regression
-Decision Tree Regressor
-Random Forest Regressor
-AdaBoost Regressor
-Gradient Boosting Regressor
-Extra Trees Regressor
+##### Linear Regression
+##### Decision Tree Regressor
+##### Random Forest Regressor
+##### AdaBoost Regressor
+##### Gradient Boosting Regressor
+##### Extra Trees Regressor
 
 # Technologies Used
-Python
-Pandas
-NumPy
-Scikit-learn
-Matplotlib
+Python,
+Pandas,
+NumPy,
+Scikit-learn,
+Matplotlib,
 Jupyter Notebook
 
 # Evaluation Metrics
 
 The models are evaluated using:
 
-MAE (Mean Absolute Error) – Measures the average prediction error.
-MSE (Mean Squared Error) – Measures the squared prediction error.
-RMSE (Root Mean Squared Error) – Shows the prediction error in the same unit as the target.
-R² Score – Measures how well the model explains the variation in insurance costs.
+##### MAE (Mean Absolute Error) – Measures the average prediction error.
+##### MSE (Mean Squared Error) – Measures the squared prediction error.
+##### RMSE (Root Mean Squared Error) – Shows the prediction error in the same unit as the target.
+##### R² Score – Measures how well the model explains the variation in insurance costs.
+
 # Results
 
 The performance of all models is compared using the above evaluation metrics.
@@ -55,8 +57,8 @@ Among the six models, Gradient Boosting achieved the highest R² score of approx
 This project demonstrates how Machine Learning and ensemble regression techniques can be used to predict medical insurance costs. Different models are compared to determine which algorithm provides better prediction performance.
 
 # Future Scope
-Use larger and more diverse healthcare datasets
-Apply advanced ensemble techniques
-Perform hyperparameter tuning
-Use feature importance for better interpretation
-Develop a web application for insurance cost prediction
+##### Use larger and more diverse healthcare datasets
+##### Apply advanced ensemble techniques
+##### Perform hyperparameter tuning
+##### Use feature importance for better interpretation
+##### Develop a web application for insurance cost prediction
